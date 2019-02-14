@@ -1,5 +1,7 @@
 FROM libgit2/docurium:latest
 
+RUN apt-get install git
+
 LABEL version="1.0.0"
 
 LABEL maintainer="libgit2 Contributors"
