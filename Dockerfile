@@ -1,6 +1,6 @@
 FROM libgit2/docurium:latest
 
-RUN apt-get install git
+RUN apt-get install -y git
 
 LABEL version="1.0.0"
 
