@@ -7,11 +7,16 @@ git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 
 env
 ls -Flas
+
+cm doc api.docurium
+
 git status
 
-#cm doc api.docurium
+git checkout gh-pages
+git status
 
-#git checkout gh-pages
+ls -Flas
+
 #ls -Flas
 
 #git push origin gh-pages
